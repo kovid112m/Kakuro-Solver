@@ -47,6 +47,7 @@ Hence, we can set to minimizing/maximizing a constant - Minimize 0 in our case.
 ## Result & Conclusion
 
 The application of Integer Programming (IP) to solve Kakuro puzzles has yielded promising results, showcasing the efficacy of this mathematical optimization technique in finding optimal solutions. The IP model successfully determined a set of integer values for each cell in the Kakuro Grids 4 and 5, satisfying the specified constraints and producing a solution that adheres to the rules of the game.
+
 The solved Kakuro puzzle demonstrates the versatility of Integer Programming in handling complex logical constraints inherent in the game. Using the same IP model developed, we can find optimal solutions to any type of Kakuro puzzle of varying complexities.
 
 ![Solved Kakuro Puzzle](https://github.com/kovid112m/Kakuro-Solver/blob/main/Kakuro%20Images/Solved%20Puzzle.png)
