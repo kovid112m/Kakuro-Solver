@@ -15,6 +15,8 @@ Kakuro is played on a grid, usually a blank grid of squares, with some cells con
   2.	The numbers in each "region" (represented by empty white cells in the grid in Grid 1.1) must add up to the given clue (gray cells) for that region.
   3.	A number cannot be repeated within the region given for the same clue.
 
+***
+
 # Methodology
 
 We will solve the Kakuro Puzzle with the help of gurobi optimizer. To use the optimizer, we will have to define the objective functions and the constraints.
@@ -43,6 +45,7 @@ Hence, we can set to minimizing/maximizing a constant - Minimize 0 in our case.
   5.	#### Sum of the digits in every column clue should be equal to the clue.
   ![Constraint 5](https://github.com/kovid112m/Kakuro-Solver/blob/main/Kakuro%20Images/Constraint%205.png)
 
+***
 
 ## Result & Conclusion
 
